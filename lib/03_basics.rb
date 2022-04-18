@@ -15,9 +15,11 @@ def reverse_upcase_noLTA(string)
  string.upcase.reverse.delete "LTA"
 end
 
+
 def array_42(array)
-return array.include? 42
+return array.include? (42)
 end
+
 
 def magic_array(ar)
 return ar.flatten.sort.uniq.map{|a|a*2}.reject{|a|a%3 == 0}

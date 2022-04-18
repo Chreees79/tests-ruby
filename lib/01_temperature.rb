@@ -1,7 +1,10 @@
+# conversion farenheit vers celcius
 def ftoc(n)
-  (n - 32) * 5/9
+  (n.to_f - 32) * 5/9
 end
+
+#conversion celcius vers farenheit
 puts ftoc(98.6)
 def ctof(n)
-  n * 9/5 + 32
+  n.to_f * 9/5 + 32
 end
