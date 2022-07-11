@@ -14,7 +14,6 @@ end
 def start_of_word(s,n)
 s[0..(n - 1)]
 end
-puts start_of_word("hello", 4)
 
 def first_word(s)
   s.split[0] #ou s.split.first
