@@ -18,9 +18,9 @@ end
 
 
 def array_42 (a)
-a.include?(42)
+  a.include?(42)
 end
 
 def magic_array(arr)
-arr.flatten.sort.map{|i|i*2}.reject{|i|i%3 == 0}.uniq
+  arr.flatten.sort.map{|i|i*2}.reject{|i|i%3 == 0}.uniq
 end

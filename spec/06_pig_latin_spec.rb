@@ -1,4 +1,4 @@
-=begin 
+ 
 require_relative '../lib/06_pig_latin'
 
 describe "#translate" do
@@ -10,34 +10,34 @@ describe "#translate" do
 
   it "translates a word beginning with a consonant" do
     s = translate("banana")
-    expect(s).to eq("ananabay")
+    expect(s).to eq("ananabay") #####
   end
 
-  it "translates a word beginning with two consonants" do
+  it "translates a word beginning with two consonants" do ######
     s = translate("cherry")
     expect(s).to eq("errychay")
   end
 
-  it "translates two words" do
+  it "translates two words" do #####
     s = translate("eat pie")
     expect(s).to eq("eatay iepay")
   end
 
-  it "translates a word beginning with three consonants" do
+  it "translates a word beginning with three consonants" do ######
     expect(translate("three")).to eq("eethray")
   end
 
-  it "counts 'sch' as a single phoneme" do
+  it "counts 'sch' as a single phoneme" do  #######
     s = translate("school")
     expect(s).to eq("oolschay")
   end
 
-  it "counts 'qu' as a single phoneme" do
+  it "counts 'qu' as a single phoneme" do ######
     s = translate("quiet")
     expect(s).to eq("ietquay")
   end
 
-  it "counts 'qu' as a consonant even when it's preceded by a consonant" do
+  it "counts 'qu' as a consonant even when it's preceded by a consonant" do #####
     s = translate("square")
     expect(s).to eq("aresquay")
   end
@@ -52,4 +52,3 @@ describe "#translate" do
   # * retain the punctuation from the original phrase
 
 end
-=end

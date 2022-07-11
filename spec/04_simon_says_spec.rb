@@ -53,7 +53,7 @@ describe "Simon says" do
       expect(start_of_word(s, 3)).to eq("abc")
     end
   end
-=begin
+
   describe "first_word" do
     it "tells us the first word of 'Hello World' is 'Hello'" do
       expect(first_word("Hello World")).to eq("Hello")
@@ -81,5 +81,4 @@ describe "Simon says" do
       expect(titleize("the bridge over the river kwai")).to eq("The Bridge Over the River Kwai")
     end
   end
-=end
 end
