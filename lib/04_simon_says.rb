@@ -14,7 +14,7 @@ end
 def start_of_word(s,n)
 s[0..(n - 1)]
 end
-puts start_of_word("hello", 3)
+puts start_of_word("hello", 4)
 
 
 
