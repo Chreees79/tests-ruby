@@ -4,7 +4,6 @@ def ftoc(n)
 end
 
 #conversion celcius vers farenheit
-puts ftoc(98.6)
 def ctof(n)
   n.to_f * 9/5 + 32
 end

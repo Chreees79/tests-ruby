@@ -4,10 +4,5 @@ end
 
 
 def greet(name)
-  case name
-  when name = "Alice"
-    return "Hello, Alice!"
-  when name = "Bob"
-    return "Hello, Bob!"
-  end
+return "Hello, #{name}!"
 end

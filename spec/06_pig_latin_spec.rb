@@ -1,3 +1,4 @@
+=begin 
 require_relative '../lib/06_pig_latin'
 
 describe "#translate" do
@@ -51,3 +52,4 @@ describe "#translate" do
   # * retain the punctuation from the original phrase
 
 end
+=end

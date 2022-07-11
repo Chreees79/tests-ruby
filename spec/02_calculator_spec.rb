@@ -60,6 +60,12 @@ describe "#power" do
   it "raises one number to the power of another number"do
   expect(power(4,2)).to eq(16)
 end
+  it "raises one number to the power of another number" do
+  expect(power(5,7)).to eq(78125)
+  end
+  it "raises one number being 0 to the power of another number" do
+  expect(power(0,7)).to eq(0)
+  end
 end
 
 # http://en.wikipedia.org/wiki/Factorial
